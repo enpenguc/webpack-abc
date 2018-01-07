@@ -1,0 +1,32 @@
+{
+  "name": "webpack-abc",
+  "version": "0.1.0",
+  "description": "webpack introduction step by step",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "react",
+    "step by step"
+  ],
+  "scripts": {
+    "start": "webpack ./src/index.js ./public/index.js",
+    "build": "set NODE_ENV=production && webpack",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:enpenguc/webpack-abc.git"
+  },
+  "author": "enpenguc@163.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "webpack": "^3.10.0"
+  }
+}
