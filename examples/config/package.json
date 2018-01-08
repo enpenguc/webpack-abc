@@ -1,0 +1,23 @@
+{
+  "name": "examples-config",
+  "version": "1.0.0",
+  "description": "webpack example",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:enpenguc/webpack-example.git"
+  },
+  "author": "enpenguc@163.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
