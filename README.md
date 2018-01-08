@@ -15,12 +15,12 @@
 
   > 看着现在团队里奇怪webpack补丁配置，以及配套的开发服务器及mock服务都繁琐无味。
   
-  所以决定回归征途，重拾下浮躁的心，再次认识下webpack的abc...
+  所以决定回归征途，重拾下浮躁的心，再次脚踏实地学习下webpack...
 
 ## ABC计划任务
 
  - [x] helloWorld例子
- - [ ] webpack配置文件例子
+ - [x] webpack配置文件例子
  - [ ] loader（以babel为例子）
  - [ ] plugin插件机制
  - [ ] uglifyjs压缩以及source-map代码映射
